@@ -1,8 +1,9 @@
 public class Tarjeta 
 {
     public int id { get; set; }
-    public string informacion { get; set; }
+    
     public string titulo { get; set; }
+    public string[] informacion { get; set; }
     public int sistema { get; set; }
     public baseDatos baseDatos { get; set; }
 
